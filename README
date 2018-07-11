@@ -1,0 +1,16 @@
+IonFalls is an unfinished project, more of a proof-of-concept, to develop a 
+replacement init system for Linux systems. STOP, what about SystemD, Upstart,
+sysvinit, bsd, etc?  Yes yes, those are great and work great; however solve a
+traditional system startup mechanism.  IonFalls was intended to be a network
+bootloader where the end-point machine boots to an agent, receives a remote
+boot profile from a centralized (or distributed) datasource. 
+
+The intent was to be able to deploy complex infrastructure quickly across
+a network by defining the role at boot-time. 
+
+While not completed, the project demonstrated a unique method of booting
+a system and allowing it to await instructions from a master node. It 
+also combined a series of Java based libraries imported into JRuby for
+things like templates and terminal manipulation. It also demonstrated that
+a machine could use a jruby program to boot rather than relying on bash
+shell scripts.
