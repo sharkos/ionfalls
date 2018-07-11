@@ -1,0 +1,14 @@
+#!/bin/bash
+# IonFalls Init Loader
+# - Use this file in /etc/inittab in c1
+# This file should be root:root u+rx
+#
+
+export IONFALLS_HOME=/opt/ionfalls
+export JRE_HOME=$IONFALLS_HOME/contrib/jre
+export JAVA_HOME=$IONFALLS_HOME/contrib/jre
+export JRUBY_HOME=/opt/ionfalls/contrib/jruby
+export PATH=$JRE_HOME/bin:$JRUBY_HOME/bin:$PATH
+
+cd $IONFALLS_HOME/client
+$JRUBY_HOME/bin/jruby $IONFALLS_HOME/client/ionclient.rb

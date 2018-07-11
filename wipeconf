@@ -1,0 +1,7 @@
+#!/bin/bash
+#
+# WipeConf - this is a developer tool to safely remove the configuration file
+#
+#
+rm conf/ionfalls.conf.yaml
+jruby ./ionfalls.rb -g

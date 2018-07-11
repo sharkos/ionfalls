@@ -1,0 +1,7 @@
+--- 
+client: 
+  hostname: tron.leafscale.com
+  enabled: true
+database: 
+  user: sa
+  pass: yOR0O2TTeB4Scuc/qPYPbQ==

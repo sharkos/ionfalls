@@ -1,0 +1,1 @@
+${color.lightgray}(${color.lightyellow}S${color.lightgray})${color.white}erver ${color.reset}or ${color.lightgray}(${color.lightyellow}C${color.lightgray})${color.white}lient

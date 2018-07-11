@@ -1,0 +1,7 @@
+bcrypt-ruby
+activerecord
+activerecord-jdbch2-adapter
+activerecord-jdbcpostgresql-adapter
+ruby-wmi
+jruby-win32ole
+grape

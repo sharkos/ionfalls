@@ -1,0 +1,16 @@
+---
+global:
+  theme: ionfalls
+server:
+  hostname: crunch11
+  listen_ipv4: 0.0.0.0
+  listen_ipv6: "::/128"
+  listen_port: '9119'
+  client_refresh_rate: 300
+database:
+  adapter: postgresql
+  host: server.leafscale.com
+  port: 5432
+  name: ionserver
+  user: ctusa
+  pass: rbWxoNKvjc1/YZQU/81KIZjfJBCyxan4
